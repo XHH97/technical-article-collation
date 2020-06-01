@@ -83,6 +83,10 @@
     * [原文地址](https://ckeditor.com/blog/Aborting-a-signal-how-to-cancel-an-asynchronous-task-in-JavaScript/)
 14. [与 JavaScript 模块相关的所有知识点 -- **译**](https://segmentfault.com/a/1190000022383096)
     * [原文地址](https://weblogs.asp.net/dixin/understanding-all-javascript-module-formats-and-tools)
+15. [未来的JavaScript记录与元组 -- **译**](https://github.com/75team/w3c/blob/master/articles/20200601_cncuckoo_%E6%9C%AA%E6%9D%A5%E7%9A%84avaScript%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%85%83%E7%BB%84.md)
+    * [原文地址](https://2ality.com/2020/05/records-tuples-first-look.html)
+16. [ECMAScript 4：缺少的版本 -- **英**](https://evertpot.com/ecmascript-4-the-missing-version/)
+17. [案例分析: 研究应用的性能 -- **英**](https://3perf.com/blog/notion/)
 
 #### JavaScript 运行机制
 > 放置一些浏览器，JavaScript运行机制相关的文章
@@ -159,7 +163,7 @@
 ## 面试
 > 面试相关的文章或是面试题
 
-1. [70个JavaScript面试题集锦 -- **译**](https://www.colabug.com/2020/0311/7107219)
+1. [70个JavaScript面试题集锦 -- **译 **](https://cloud.tencent.com/developer/article/1621572)
     * [原文地址](https://dev.to/macmacky/70-javascript-interview-questions-5gfi)
 2. [JavaScript 进阶问题列表 -- **译**](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
     * [原文地址](https://github.com/lydiahallie/javascript-questions)
