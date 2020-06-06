@@ -32,10 +32,12 @@
 
 ## 前端
 > 前端类别的文章
+
 ### CSS
 
 #### CSS布局
 > CSS布局相关的文章
+
 1. [CSS布局解决方案（终结版）](https://segmentfault.com/a/1190000013565024)
 2. [不需要媒体查询的灵活布局方式 -- **英**](https://blog.logrocket.com/flexible-layouts-without-media-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-407&utm_medium=email#utm_source=CSS-Weekly&utm_campaign=Issue-407&utm_medium=email)
 
@@ -51,6 +53,7 @@
 
 ### JavaScript
 > 放置 JavaScript 相关的文章
+
 0. [**JavaScript 20 年** -- **译**](https://github.com/doodlewind/js-20-years-cn)
    * [原文地址](https://zenodo.org/record/3707008)
 1. [用个实在例子来教你掌握 Async/Await -- **译**](https://juejin.im/post/5ca2bac16fb9a05e5849471d)
@@ -73,7 +76,6 @@
 9. [理解 JavaScript 中的 Promise -- **译**](https://windyard.com/2019/06/25/understanding-promise/index.html)
     * [原文地址](https://medium.com/better-programming/understanding-promises-in-javascript-13d99df067c1)
 10. [什么是 JavaScript 的变量提升 -- **英**](https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
-
 10. [为什么 JavaScript 正在吃掉 HTML -- **英**](https://css-tricks.com/why-javascript-is-eating-html/)
 11. [深入 ES6 模块 -- **译**](https://www.zcfy.cc/article/es6-modules-in-depth-4436.html)
     * [原文地址](https://ponyfoo.com/articles/es6-modules-in-depth)
@@ -109,6 +111,7 @@
 
 #### JavaScript 技巧
 > JavaScript 小技巧或是有用的代码片段
+
 1. [你可以在30秒或更短的时间内学会127个有用的JavaScript代码片段系列 -- **英**](https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5)
     *该系列攻六篇文章，一共汇总了127个代码片段*
 
@@ -147,11 +150,13 @@
 
 ### 算法 & 数据结构
 > 算法 & 数据结构
+
 1. [十大经典排序算法的 JS 版](https://mp.weixin.qq.com/s/OH0xlFbeMn_tiiiW_5EetQ)
 2. [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 
 ### 设计模式
 > 设计模式
+
 1. [JavaScript设计模式综合指南 -- **译**](http://www.srcmini.com/54392.html)
     * [原文地址](https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns)
 2. [JavaScript中常见的十五种设计模式](https://www.cnblogs.com/imwtr/p/9451129.html)
@@ -198,24 +203,31 @@
 
 ## 规范
 > 开发规范
+
 ### 前端
 > 前端的开发规范
+
 1. [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
 2. [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 
 ## 开发工具
 > 编程过程中使用到的工具
+
 ### VSCode
 > VSCode 相关的内容
+
 1. [这就是我想要的 VSCode 插件！-- **译**](https://zhuanlan.zhihu.com/p/36020180)
     * [原文地址](https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5)
-  
+
 2. [15个VS代码扩展，可节省您的时间并使您成为更好的开发人员 -- **英**](https://levelup.gitconnected.com/15-vs-code-extension-to-save-your-time-and-make-you-a-better-developer-506f79baec53)
 
 ### 浏览器
 > 浏览器开发者工具或是相关技巧的内容
+
 #### Chrome
 > Chrome 开发者工具相关的内容
-1. [Chrome开发者工具 -- **英**](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2)
 
+1. [Chrome开发者工具 -- **英**](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2)
+2. [使用Chrome DevTools优化网站速度 -- **译**](https://mp.weixin.qq.com/s/QVFza4MoN6XSAr7Dw4fltg)
+    * [原文地址](https://developers.google.cn/web/tools/chrome-devtools/speed/get-started)
 3. [vscode插件集合 -- **英**](https://github.com/viatsko/awesome-vscode)
