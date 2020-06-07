@@ -200,6 +200,8 @@
     * [原文地址](https://medium.com/@cramforce/designing-very-large-javascript-applications-6e013a3291a3)
 9. [Web架构入门 -- **译**](http://www.mzh.ren/web-architecture-101.html)
     * [原文地址](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
+10. [前端架构 101 系列 -- **持续更新**](https://zhuanlan.zhihu.com/p/145441907)
+    **该系列共九篇文章 - 持续更新中**
 
 ## 规范
 > 开发规范
