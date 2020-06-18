@@ -1,9 +1,9 @@
 # 技术文章整理 <!-- omit in toc -->
+
 > 看过的觉得比较好的文章进行分类整理
 
-:ballot_box_with_check: 符号代表这篇文章已读，并且有相应的笔记，:one: 序号代表该系列的文章部分序号篇数已读
-
 ## 目录 <!-- omit in toc -->
+
 - [前端](#前端)
   - [CSS](#css)
     - [CSS布局](#css布局)
@@ -31,20 +31,24 @@
     - [Chrome](#chrome)
 
 ## 前端
+
 > 前端类别的文章
 
 ### CSS
 
 #### CSS布局
+
 > CSS布局相关的文章
 
 1. [CSS布局解决方案（终结版）](https://segmentfault.com/a/1190000013565024)
 2. [不需要媒体查询的灵活布局方式 -- **英**](https://blog.logrocket.com/flexible-layouts-without-media-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-407&utm_medium=email#utm_source=CSS-Weekly&utm_campaign=Issue-407&utm_medium=email)
 
 #### CSS技巧
+
 1. [灵活运用CSS开发技巧](https://segmentfault.com/a/1190000020899202)
 
 #### CSS进阶
+
 1. [CSS 的“层”峦“叠”翠 - 一文掌握z-index用法​​​​​​​](https://mp.weixin.qq.com/s/cbeN51u8Rn9Ta7WjRdE9hg)
 2. [CSS 中 关于 Overflow ，你需要了解的这些知识点！ -- **译**](https://juejin.im/post/5ecdcbbe6fb9a047ab2c1530)
     * [原文地址](https://ishadeed.com/article/overflow-css/?utm_source=CSS-Weekly&utm_campaign=Issue-405&utm_medium=email)
@@ -52,17 +56,38 @@
     * [原文地址](https://ishadeed.com/article/spacing-in-css/?utm_source=CSS-Weekly&utm_campaign=Issue-407&utm_medium=email)
 
 ### JavaScript
+
 > 放置 JavaScript 相关的文章
 
 0. [**JavaScript 20 年** -- **译**](https://github.com/doodlewind/js-20-years-cn)
    * [原文地址](https://zenodo.org/record/3707008)
 1. [用个实在例子来教你掌握 Async/Await -- **译**](https://juejin.im/post/5ca2bac16fb9a05e5849471d)
     * [原文地址](https://medium.com/free-code-camp/how-to-master-async-await-with-this-real-world-example-19107e7558ad)
+    <details><summary><b>笔记</b></summary>
+    <p>
+        并没有介绍过多关于 async/await 的内容，也就是说就是一篇 async/await 的简单入门文章
+    </p>
+    </details>
 2. [1000+ 项目中出现最多的 10 个 JavaScript 错误（及如何避免）-- **译**](https://zhuanlan.zhihu.com/p/33404205)
     * [原文地址](https://codeburst.io/top-10-javascript-errors-from-1000-projects-and-how-to-avoid-them-2956ce008437)
+    <details><summary><b>答案</b></summary>
+    <p>
+        文中罗列的一些错误内容，与现在的报错信息有一点差别，具体请以实践结果为例
+    </p>
+    </details>
 3. [JavaScript 的 Async/Await 完胜 Promise 的六个理由 -- **译**](https://www.zcfy.cc/article/6-reasons-why-javascript-s-async-await-blows-promises-away-tutorial-2786.html)
     * [原文地址](https://medium.com/hackernoon/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
-4. [JavaScript 大师必须掌握的 12 个知识点 -- **译**](https://www.lbbniu.com/7042.html)
+    <details><summary><b>笔记</b></summary>
+        主要介绍了 async/await 优于 Promise 的六个方面 </br>
+        1. 简介干净     - 不必在代码中写 then() 方法来处理响应</br>
+        2. 错误处理     - 在使用 try/catch 时无法捕获到 Promise 中执行的错误，如果需要捕获，这需要使用 Promise 的 catch() 方法进行捕获。</br>
+        3. 条件语句</br>
+        4. 中间值       - 在 Promise 中如果我们需要知道一个 Promise 的执行结果，可能就需要在 then() 方法中进行嵌套了</br>
+        5. 错误栈       - 在代码执行错误时，返回的错误信息是不一样的，async/await 会更加的精确</br>
+        6. 调试</br>
+    </p>
+    </details>
+4. [JavaScript 大师必须掌握的 12 个知识点 -- **译**](https://segmentfault.com/a/1190000018748741)
     * [原文地址](https://levelup.gitconnected.com/10-things-to-learn-on-the-way-to-become-a-javascript-master-f4fc632b2bb7)
 5. [负责任地编写JavaScript代码系列 --**译**](https://wecteam.io/2019/12/13/%E8%B4%9F%E8%B4%A3%E4%BB%BB%E5%9C%B0%E7%BC%96%E5%86%99JavaScript%E4%BB%A3%E7%A0%81%EF%BC%9A%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/)
   *其他文章可通过底部文章导航查看*
@@ -89,8 +114,11 @@
     * [原文地址](https://2ality.com/2020/05/records-tuples-first-look.html)
 16. [ECMAScript 4：缺少的版本 -- **英**](https://evertpot.com/ecmascript-4-the-missing-version/)
 17. [案例分析: 研究应用的性能 -- **英**](https://3perf.com/blog/notion/)
+18. [JavaScript 错误处理权威指南 -- **译**](https://www.infoq.cn/article/cQQKlPyjLsLwv_BQt9y0)
+    * [原文地址](https://levelup.gitconnected.com/the-definite-guide-to-handling-errors-gracefully-in-javascript-58424d9c60e6)
 
 #### JavaScript 运行机制
+
 > 放置一些浏览器，JavaScript运行机制相关的文章
 
 1. [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
@@ -110,12 +138,14 @@
 8. [JavaScript内存泄漏的原因以及如何避免它们 -- **英**](https://www.ditdot.hr/en/causes-of-memory-leaks-in-javascript-and-how-to-avoid-them)
 
 #### JavaScript 技巧
+
 > JavaScript 小技巧或是有用的代码片段
 
 1. [你可以在30秒或更短的时间内学会127个有用的JavaScript代码片段系列 -- **英**](https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5)
     *该系列攻六篇文章，一共汇总了127个代码片段*
 
 ### 多媒体
+
 > 放置一些图片类，媒体类和字体类的文章
 
 1. [图像优化自动化实用指南 -- **译**](https://www.yuque.com/ysfe/ykx/imgopt)
@@ -124,6 +154,7 @@
 ### 框架
 
 #### React
+
 1. [建立自己的 React -- **英**](https://pomb.us/build-your-own-react)
 2. [useRedux —使用React Hooks的状态管理模式 -- **英**](https://medium.com/hackernoon/useredux-state-management-pattern-with-react-hooks-fa8e1413b9f1)
 3. [React 开发指南 2019 -- **译**](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
@@ -137,24 +168,30 @@
 8. [使用React Hooks进行状态管理 - 无Redux和Context API](https://segmentfault.com/a/1190000020354594)
     * [原文地址](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
 9. [关于React渲染行为的（大多数）完整指南 -- **英**](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
+10. [理解 React Hooks -- **译**](https://zhuanlan.zhihu.com/p/49489786)
+    * [原文地址](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
 
 ##### 源码
+
 1. [React Hooks 源码解析系列 Version: 16.11.0](https://juejin.im/post/5dc6e1b35188251ab9183c7d)
 
 ## 进阶技能
 
 ### 正则
+
 > 放置与正则表达式相关的文章
 
 1. [JS正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
 
 ### 算法 & 数据结构
+
 > 算法 & 数据结构
 
 1. [十大经典排序算法的 JS 版](https://mp.weixin.qq.com/s/OH0xlFbeMn_tiiiW_5EetQ)
 2. [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 
 ### 设计模式
+
 > 设计模式
 
 1. [JavaScript设计模式综合指南 -- **译**](http://www.srcmini.com/54392.html)
@@ -162,10 +199,12 @@
 2. [JavaScript中常见的十五种设计模式](https://www.cnblogs.com/imwtr/p/9451129.html)
 
 ### WebGL
+
 1. [WebGL手册 -- **英**](https://xem.github.io/articles/webgl-guide.html)
 
 
 ## 面试
+
 > 面试相关的文章或是面试题
 
 1. [70个JavaScript面试题集锦 -- **译 **](https://cloud.tencent.com/developer/article/1621572)
@@ -186,6 +225,7 @@
 12. [每日面试题](https://github.com/haizlin/fe-interview/blob/master/category/history.md)
 
 ## 综合
+
 1. [年终回顾，为你汇总一份「前端技术清单」-- **持续更新**](https://github.com/alienzhou/frontend-tech-list)
 2. [每个Web开发人员都可以使用的9个流行的GitHub存储库 -- **英**](https://medium.com/better-programming/9-popular-github-repos-for-every-web-developer-6826582291bc)
 3. [前端清单 -- **译**](http://luchun.github.io/The-front-end-checklist/)
@@ -204,18 +244,22 @@
     **该系列共九篇文章 - 持续更新中**
 
 ## 规范
+
 > 开发规范
 
 ### 前端
+
 > 前端的开发规范
 
 1. [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
 2. [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 
 ## 开发工具
+
 > 编程过程中使用到的工具
 
 ### VSCode
+
 > VSCode 相关的内容
 
 1. [这就是我想要的 VSCode 插件！-- **译**](https://zhuanlan.zhihu.com/p/36020180)
@@ -224,9 +268,11 @@
 2. [15个VS代码扩展，可节省您的时间并使您成为更好的开发人员 -- **英**](https://levelup.gitconnected.com/15-vs-code-extension-to-save-your-time-and-make-you-a-better-developer-506f79baec53)
 
 ### 浏览器
+
 > 浏览器开发者工具或是相关技巧的内容
 
 #### Chrome
+
 > Chrome 开发者工具相关的内容
 
 1. [Chrome开发者工具 -- **英**](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2)
