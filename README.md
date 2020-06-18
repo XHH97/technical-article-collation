@@ -116,6 +116,9 @@
 17. [案例分析: 研究应用的性能 -- **英**](https://3perf.com/blog/notion/)
 18. [JavaScript 错误处理权威指南 -- **译**](https://www.infoq.cn/article/cQQKlPyjLsLwv_BQt9y0)
     * [原文地址](https://levelup.gitconnected.com/the-definite-guide-to-handling-errors-gracefully-in-javascript-58424d9c60e6)
+19. [JavaScript 中的执行上下文和调用栈是什么？ -- **译**](https://www.zcfy.cc/article/what-is-the-execution-context-amp-stack-in-javascript-by-david-shariff)
+    * [原文地址](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/)
+
 
 #### JavaScript 运行机制
 
