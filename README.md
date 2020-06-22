@@ -70,14 +70,15 @@
     </details>
 2. [1000+ 项目中出现最多的 10 个 JavaScript 错误（及如何避免）-- **译**](https://zhuanlan.zhihu.com/p/33404205)
     * [原文地址](https://codeburst.io/top-10-javascript-errors-from-1000-projects-and-how-to-avoid-them-2956ce008437)
-    <details><summary><b>答案</b></summary>
+    <details><summary><b>笔记</b></summary>
     <p>
-        文中罗列的一些错误内容，与现在的报错信息有一点差别，具体请以实践结果为例
+        文中罗列的一些错误内容，与现在的报错信息有一点差别，具体请以实践结果为例，文中的内容可以作为参考内容
     </p>
     </details>
-3. [JavaScript 的 Async/Await 完胜 Promise 的六个理由 -- **译**](https://www.zcfy.cc/article/6-reasons-why-javascript-s-async-await-blows-promises-away-tutorial-2786.html)
+3. [JavaScript 的 Async/Await 完胜 Promise 的六个理由 -- **译**](https://loveky.github.io/2017/04/09/translate-6-reasons-why-javascripts-async-await-blows-promises-away/)
     * [原文地址](https://medium.com/hackernoon/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
     <details><summary><b>笔记</b></summary>
+    <p>
         主要介绍了 async/await 优于 Promise 的六个方面 </br>
         1. 简介干净     - 不必在代码中写 then() 方法来处理响应</br>
         2. 错误处理     - 在使用 try/catch 时无法捕获到 Promise 中执行的错误，如果需要捕获，这需要使用 Promise 的 catch() 方法进行捕获。</br>
@@ -89,18 +90,43 @@
     </details>
 4. [JavaScript 大师必须掌握的 12 个知识点 -- **译**](https://segmentfault.com/a/1190000018748741)
     * [原文地址](https://levelup.gitconnected.com/10-things-to-learn-on-the-way-to-become-a-javascript-master-f4fc632b2bb7)
+    <details><summary><b>笔记</b></summary>
+    <p>
+        在文中作者一共列举了12大知识点：
+        <ul>
+            <li>控制流（Control Flow）</li>
+            <li>异常处理</li>
+            <li>数据模型（这个还是有一定的作用的）</li>
+            <li>异步性</li>
+            <li>操作DOM（基础）</li>
+            <li>Nodejs/Express</li>
+            <li>函数式编程 && 面向对象编程</li>
+            <li>前端框架（Vue、React and Angular）</li>
+            <li>前端编译/打包（Webpack，Babel，Gulp 和 parcel）</li>
+            <li>正则表达式（学了不会吃亏）</li>
+        </ul>
+    </p>
+    </details>
 5. [负责任地编写JavaScript代码系列 --**译**](https://wecteam.io/2019/12/13/%E8%B4%9F%E8%B4%A3%E4%BB%BB%E5%9C%B0%E7%BC%96%E5%86%99JavaScript%E4%BB%A3%E7%A0%81%EF%BC%9A%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/)
   *其他文章可通过底部文章导航查看*
     * [原文地址](https://alistapart.com/article/responsible-javascript-part-1/)
 6. [我从来都不懂Javascript闭包 -- **译**](https://zhuanlan.zhihu.com/p/37176380)
     * [原文地址](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
-7. [6个Async/Await完胜Promise的原因](https://loveky.github.io/2017/04/09/translate-6-reasons-why-javascripts-async-await-blows-promises-away/)
-    * [原文地址](https://medium.com/hackernoon/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
-8. [理解异步JavaScript -- **译**](https://juejin.im/post/5c0d148af265da612637fa76)
+    <details><summary><b>笔记</b></summary>
+    <p>
+        文中作者使用几个代码示例，来详细的介绍了，JavaScript 引擎是如何一步一步的去执行代码的，通过代码的执行过程来解释什么闭包
+    </p>
+    </details>
+7. [理解异步JavaScript -- **译**](https://juejin.im/post/5c0d148af265da612637fa76)
     * [原文地址](https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff)
-9. [理解 JavaScript 中的 Promise -- **译**](https://windyard.com/2019/06/25/understanding-promise/index.html)
+    <details><summary><b>笔记</b></summary>
+    <p>
+        作者先从 JavaScript 的执行栈开始入手，然后通过几个案例来讲解事件循环（同步事件 > 微队列（.then、.catch、await...）> 异步队列（setTimeout，DOM Event...））
+    </p>
+    </details>
+8. [理解 JavaScript 中的 Promise -- **译**](https://windyard.com/2019/06/25/understanding-promise/index.html)
     * [原文地址](https://medium.com/better-programming/understanding-promises-in-javascript-13d99df067c1)
-10. [什么是 JavaScript 的变量提升 -- **英**](https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
+9.  [什么是 JavaScript 的变量提升 -- **英**](https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
 10. [为什么 JavaScript 正在吃掉 HTML -- **英**](https://css-tricks.com/why-javascript-is-eating-html/)
 11. [深入 ES6 模块 -- **译**](https://www.zcfy.cc/article/es6-modules-in-depth-4436.html)
     * [原文地址](https://ponyfoo.com/articles/es6-modules-in-depth)
