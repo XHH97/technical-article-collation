@@ -126,6 +126,21 @@
     </details>
 8. [理解 JavaScript 中的 Promise -- **译**](https://windyard.com/2019/06/25/understanding-promise/index.html)
     * [原文地址](https://medium.com/better-programming/understanding-promises-in-javascript-13d99df067c1)
+    <details><summary><b>笔记</b></summary>
+    <p>
+        文章通过使用几个实例让读者熟悉 Promise 以及 Promise 的几个原型方法。在文章最后也总结了使用 Promise 的几个最佳实践：
+        <ol>
+            <li>当你想用异步或阻塞型代码时请使用 Promise。</li>
+            <li>在实践中将 resolve 对应 then，reject 对应 catch。</li>
+            <li>确保为所有的 Promise 都写上 .catch 和 .then。</li>
+            <li>如果某个操作无论如何都要执行请使用 .finally</li>
+            <li>每个 Promise 只能执行一次。</li>
+            <li>我们可以为一个 Promise 添加多个处理函数。</li>
+            <li>Promise 对象的方法返回的数据类型都是 Promise，无论时静态方法还是原型方法。</li>
+            <li>在 Promise.all 中，不管是哪个 Promise 先执行完成，返回值的顺序与输入时一致。</li>
+        </ol>
+    </p>
+    </details>
 9.  [什么是 JavaScript 的变量提升 -- **英**](https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
 10. [为什么 JavaScript 正在吃掉 HTML -- **英**](https://css-tricks.com/why-javascript-is-eating-html/)
 11. [深入 ES6 模块 -- **译**](https://www.zcfy.cc/article/es6-modules-in-depth-4436.html)
